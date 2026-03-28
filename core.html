@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="es" data-bss-forced-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SISTEMA CORE | CHAKNEO IA - RUST PERFORMANCE</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="text-white bg-dark">
+    <nav class="navbar navbar-expand-md sticky-top bg-dark py-4">
+        <div class="container"><a class="navbar-brand fw-800 text-white logo-font" href="index.html"> CHAKNEO</a>
+            <div class="ms-auto"><a class="btn btn-primary btn-sm fw-bold px-4" role="button" href="index.html#modalAgendar" data-bs-toggle="modal"> ACCESO AL NÚCLEO </a></div>
+        </div>
+    </nav>
+    <header class="bg-black position-relative overflow-hidden py-6">
+        <div class="container text-center position-relative z-1"><span class="fw-bold text-primary d-block mb-3 tracking-widest">LOW-LEVEL ENGINEERING</span>
+            <h1 class="display-3 mb-4 fw-900">EL NÚCLEO CHAKNEO:<br><span class="text-outline">RENDIMIENTO RUST.</span></h1>
+            <p class="lead text-light-emphasis mb-5 mx-auto max-w-700">Construido desde cero en Rust para garantizar latencias de milisegundos y una seguridad de memoria de grado militar. No es software, es infraestructura de alto rendimiento.</p>
+        </div>
+        <div class="bg-grid-pattern opacity-25"></div>
+    </header>
+    <section class="border-secondary py-6 bg-darker border-top">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h2 class="text-primary mb-4 fw-900">EL PODER DE RUST</h2>
+                    <p class="lead text-white mb-4">A diferencia de otras soluciones basadas en lenguajes interpretados, el Sistema Core de CHAKNEO se compila nativamente.</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start gap-3 mb-4"><svg class="bi bi-cpu fs-3 text-primary" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"></path>
+                            </svg>
+                            <div>
+                                <h5 class="fw-bold">Gestión de Memoria Segura</h5>
+                                <p class="small text-secondary m-0">El sistema de "Ownership" de Rust evita fugas de memoria y errores críticos de ejecución en tiempo real.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start gap-3 mb-4"><svg class="bi bi-lightning-charge fs-3 text-primary" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41z"></path>
+                            </svg>
+                            <div>
+                                <h5 class="fw-bold">Latencia Cero</h5>
+                                <p class="small text-secondary m-0">Nuestra IA procesa flujos de datos a la velocidad del hardware, respondiendo mensajes en menos de 100ms.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-black border-primary border shadow-lg p-4">
+                        <div class="d-flex gap-2 mb-3">
+                            <div class="bg-danger rounded-circle" style="width:12px;height:12px;"></div>
+                            <div class="bg-warning rounded-circle" style="width:12px;height:12px;"></div>
+                            <div class="bg-success rounded-circle" style="width:12px;height:12px;"></div>
+                        </div><code class="text-primary d-block mb-2">fn main_core() {</code><code class="text-white d-block ps-3 mb-2">let nucleus = Chakneo::init_elite();</code><code class="text-white d-block ps-3 mb-2">nucleus.execute_multi_sector(Sector::Inmobiliaria);</code><code class="text-white d-block ps-3 mb-2">println!("Elite performance active");</code><code class="text-primary d-block">}</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black py-6">
+        <div class="container text-center">
+            <h2 class="mb-5 fw-900">EL MÉTODO PROFUNDO</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="border border-secondary-subtle p-5">
+                        <h1 class="display-4 mb-4 fw-900 text-outline">01</h1>
+                        <h4 class="fw-bold text-primary">Extracción Vectorial</h4>
+                        <p class="small text-secondary">Convertimos tu base de datos (inventario, stock o pacientes) en vectores de alta dimensionalidad para una búsqueda semántica ultra-rápida.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-secondary-subtle p-5 bg-darker">
+                        <h1 class="display-4 mb-4 fw-900 text-outline">02</h1>
+                        <h4 class="fw-bold text-primary">Inferencia Neuronal</h4>
+                        <p class="small text-secondary">Nuestros modelos no siguen flujos lógicos simples. Entienden la intención, negocian y resuelven objeciones basándose en datos históricos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="border border-secondary-subtle p-5">
+                        <h1 class="display-4 mb-4 fw-900 text-outline">03</h1>
+                        <h4 class="fw-bold text-primary">Despliegue Multi-Nodo</h4>
+                        <p class="small text-secondary">El Núcleo se integra vía API con cualquier CRM del mercado, automatizando el flujo de entrada y salida de datos de forma bidireccional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center border-secondary py-5 border-top bg-darker"><a class="fw-bold text-decoration-none text-primary" href="index.html">← VOLVER AL PANEL DE CONTROL</a></footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
