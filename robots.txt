@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# El mapa para que Google no se pierda
+Sitemap: https://chakneo.com/sitemap.xml
+
+
